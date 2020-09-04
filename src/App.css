@@ -1,38 +1,47 @@
-.App {
+body {
+  background-image: url("../src/Component/Images/bg.jpg");
+  background-size: cover;
+}
+.no {
+  width: 1px;
+}
+.list {
+  width: 900px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.action {
+  text-align: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.isilist {
+  text-align: center;
+  padding: 6px 12px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.input {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-top: 30px;
+}
+.form {
+  width: 500px;
+  background-color: rgba(179, 111, 8, 0.74);
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.form::placeholder {
   color: white;
+  text-indent: 10px;
 }
-
-.App-link {
-  color: #61dafb;
+.judul {
+  text-align: center;
+  margin-top: 100px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.conTable {
+  background-color: rgba(0, 0, 0, 0.466);
+  border-radius: 10px;
+}
+.list-data {
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
 }
